@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비만도 계산기"
+        android:textColor="#ff0000"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Weight EditText -->
+    <TextView
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="몸무게를 입력하세요 (kg)"
+        android:textSize="21sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Height EditText -->
+    <TextView
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="키를 입력하세요 (cm)"
+        android:textSize="21sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Calculate Button -->
+
+    <!-- Result TextView -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="비만도 측정하기"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="결과: "
+        android:textColor="#DCCA2E"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp" />
+
+    <!-- Add an ImageView for the image -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bmivy"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>

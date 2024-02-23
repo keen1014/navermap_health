@@ -1,0 +1,89 @@
+<!-- res/layout/fragment_marker_detail.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:name=".Fragment6"
+    android:windowSoftInputMode="adjustResize">
+
+    <!-- 나머지 레이아웃 내용 -->
+
+
+
+
+
+    <TextView
+        android:id="@+id/markerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:text="오르소 피트니스 "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/markerAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:text="강원 강릉시 경강로 1928-9 동림빌딩3층\n연락처: 0507-1362-7819 영업시간: 06:00~23:00시"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/linkButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/closeButton"
+        android:text="사이트 관련 더보기" />
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="닫기" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/review"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="댓글 작성"
+            android:textColorHint="#808080" />
+
+        <Button
+            android:id="@+id/reviewsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="작성" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/reviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0B636E"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

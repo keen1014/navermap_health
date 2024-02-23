@@ -1,0 +1,69 @@
+<!-- res/layout/fragment_marker_detail.xml -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 나머지 레이아웃 내용 -->
+
+        <ImageView
+            android:id="@+id/markerImage"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/steam" />
+
+        <ImageView
+            android:id="@+id/marker2Image"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/steamdak" />
+
+
+        <TextView
+            android:id="@+id/markerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F83D2F"
+            android:background="#FFFFFF"
+            android:text="[맛있닭] 스팀 닭가슴살 마늘맛"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/markerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:background="#FFFFFF"
+            android:text="중량 100g / 열량(100g) 175kcal / 단백질 20g /\n나트륨 270mg / 탄수화물3g / 지방9g / 포화지방1.7g / 콜레스트롤65mg / 당류3g 국내산 (79.17%) 밥이랑 같이 먹어도 맛있는 프리미엄 마늘맛1 퍽퍽살 NO 육즙 OK 스팀으로 조리해서 부드러워요! 전자레인지 1분50초 OK~ "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/linkButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/closeButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="식품 관련 상세히 보기"
+            android:background="#D65329"/>
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="닫기"
+            android:background="#2C2B2A"/>
+
+        <!-- 나머지 레이아웃 내용 -->
+
+    </LinearLayout>
+
+</ScrollView>

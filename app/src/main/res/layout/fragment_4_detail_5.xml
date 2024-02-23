@@ -1,0 +1,69 @@
+<!-- res/layout/fragment_marker_detail.xml -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 나머지 레이아웃 내용 -->
+
+        <ImageView
+            android:id="@+id/markerImage"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bbukbak" />
+
+        <ImageView
+            android:id="@+id/marker2Image"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bukbab2" />
+
+
+        <TextView
+            android:id="@+id/markerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F83D2F"
+            android:background="#FFFFFF"
+            android:text="[인생닭] 닭가슴살 곤약 갈릭 볶음밥"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/markerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:background="#FFFFFF"
+            android:text="중량 250g / 열량(250g) 410kcal / 단백질 19g /\n나트륨 400mg / 탄수화물67g / 지방8g / 포화지방1.8g / 콜레스트롤55mg / 당류2g 국내산닭 (100%) 배가 출출할 때 인생닭 볶음밥 한끼면 영양만점+고함량 단백질만점 탄수화물과 단백질 둘다 챙기세요! 맛100% 보장!! "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/linkButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/closeButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="식품 관련 상세히 보기"
+            android:background="#D65329"/>
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="닫기"
+            android:background="#2C2B2A"/>
+
+        <!-- 나머지 레이아웃 내용 -->
+
+    </LinearLayout>
+
+</ScrollView>

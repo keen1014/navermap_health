@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_1"
+        android:icon="@drawable/zido"
+        android:title="지도" />
+
+    <item
+        android:id="@+id/navigation_2"
+        android:icon="@drawable/even"
+        android:title="이벤트" />
+
+    <item
+        android:id="@+id/navigation_3"
+        android:icon="@drawable/bmi"
+        android:title="bmi" />
+
+    <item
+        android:id="@+id/navigation_4"
+        android:icon="@drawable/foodbar"
+        android:title="식품관" />
+
+    <item
+        android:id="@+id/navigation_5"
+        android:icon="@drawable/sett"
+        android:title="설정" />
+
+
+</menu>

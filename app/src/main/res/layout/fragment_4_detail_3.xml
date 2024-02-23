@@ -1,0 +1,69 @@
+<!-- res/layout/fragment_marker_detail.xml -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 나머지 레이아웃 내용 -->
+
+        <ImageView
+            android:id="@+id/markerImage"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/deakstak" />
+
+        <ImageView
+            android:id="@+id/marker2Image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/masidakstake" />
+
+
+        <TextView
+            android:id="@+id/markerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F83D2F"
+            android:background="#FFFFFF"
+            android:text="[맛있닭] 닭가슴살 스테이크 프로 오리지널"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/markerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:background="#FFFFFF"
+            android:text="중량 120g / 열량(120g) 180kcal / 단백질 25g /\n나트륨 440mg / 탄수화물6g / 지방6g / 포화지방2g / 콜레스트롤70mg / 당류5g 국내산 (80%) 단백질 충만한 스테이크 먹고 싶을 땐 맛있닭 스테이크 프로!!\n프라이펜에 살짝 기름 두르고 조리해주세요. "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/linkButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/closeButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="식품 관련 상세히 보기"
+            android:background="#D65329"/>
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="닫기"
+            android:background="#2C2B2A"/>
+
+        <!-- 나머지 레이아웃 내용 -->
+
+    </LinearLayout>
+
+</ScrollView>

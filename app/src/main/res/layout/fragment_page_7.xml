@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragment7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="-124dp"
+            tools:layout_editor_absoluteY="-193dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myadd"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="수정" />
+
+            <TextView
+                android:id="@+id/textview15"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="358dp"
+                android:gravity="left"
+                android:text="주소"
+                android:textSize="10pt" />
+
+            <EditText
+                android:id="@+id/myadd"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="387dp"
+                android:hint="NULL" />
+
+            <EditText
+                android:id="@+id/mywate"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="307dp"
+                android:hint="NULL" />
+
+            <TextView
+                android:id="@+id/textview12"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="278dp"
+                android:gravity="left"
+                android:text="몸무게"
+                android:textSize="10pt" />
+
+            <EditText
+                android:id="@+id/myheight"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="227dp"
+                android:hint="NULL" />
+
+            <TextView
+                android:id="@+id/textview11"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="198dp"
+                android:gravity="left"
+                android:text="키"
+                android:textSize="10pt" />
+
+            <EditText
+                android:id="@+id/myid"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="147dp"
+                android:hint="NULL"
+                android:textSize="7pt" />
+
+            <TextView
+                android:id="@+id/textview10"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="118dp"
+                android:gravity="left"
+                android:text="닉네임"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="내 정보 수정"
+                android:textSize="15pt" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

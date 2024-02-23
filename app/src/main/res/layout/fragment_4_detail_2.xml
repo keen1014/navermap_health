@@ -1,0 +1,68 @@
+<!-- res/layout/fragment_marker_detail.xml -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 나머지 레이아웃 내용 -->
+
+        <ImageView
+            android:id="@+id/markerImage"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/masitdak" />
+
+        <ImageView
+            android:id="@+id/marker2Image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/dedak" />
+
+        <TextView
+            android:id="@+id/markerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F83D2F"
+            android:background="#FFFFFF"
+            android:text="2억 팩 판매 돌파 [맛있닭] 프로 닭가슴살"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/markerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="138dp"
+            android:background="#FFFFFF"
+            android:text="중량 120g / 열량(120g) 131kcal / 단백질 27.7g /\n나트륨 50.7mg / 탄수화물1.6g / 지방1.5g / 포화지방0.8g / 콜레스트롤49.1mg / 당류0.8g 국내산 (88.92%)닭가슴살 고함류 단백질과 저염으로 맛과 식감 둘다 느껴보세요! 전자레인지 1000w기준 2분 조리해주세요. "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/linkButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/closeButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="식품 관련 상세히 보기"
+            android:background="#D65329"/>
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="닫기"
+            android:background="#2C2B2A"/>
+
+        <!-- 나머지 레이아웃 내용 -->
+
+    </LinearLayout>
+
+</ScrollView>

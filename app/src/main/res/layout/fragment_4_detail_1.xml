@@ -1,0 +1,68 @@
+<!-- res/layout/fragment_marker_detail.xml -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 나머지 레이아웃 내용 -->
+
+        <ImageView
+            android:id="@+id/markerImage"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/heodaklist1" />
+
+        <ImageView
+            android:id="@+id/marker2Image"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/heodak" />
+
+        <TextView
+            android:id="@+id/markerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F83D2F"
+            android:background="#FFFFFF"
+            android:text="[허닭] 개그맨 허경환이 직접 만든 닭"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/markerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:background="#FFFFFF"
+            android:text="중량 100g / 열량(100g) 105kcal / 단백질 21g / 나트륨370mg / 탄수화물 1g미만 / 당류 1g미만 / 콜레스트롤 80mg / 지방2.2g / 트랜스지방 0g / 포화지방 0.5g /\n국내산 닭가슴살 95.01% 고함유 촉촉한 식감과 담백한\n오리지날! 전자레인지 3분이면 부드러운 식감맛을 낼 수\n있습니다."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/linkButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/closeButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="식품 관련 상세히 보기"
+            android:background="#D65329"/>
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="닫기"
+            android:background="#2C2B2A"/>
+
+        <!-- 나머지 레이아웃 내용 -->
+
+    </LinearLayout>
+
+</ScrollView>
